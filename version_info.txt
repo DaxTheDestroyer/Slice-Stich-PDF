@@ -1,0 +1,45 @@
+# UTF-8
+#
+# Windows version info file for PyInstaller
+# This embeds version metadata in the .exe file properties
+
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        # File version (4 parts: major, minor, patch, build)
+        filevers=(4, 0, 0, 0),
+        # Product version
+        prodvers=(4, 0, 0, 0),
+        # File flags mask
+        mask=0x3f,
+        # File flags
+        flags=0x0,
+        # Operating system
+        OS=0x40004,  # VOS_NT_WINDOWS32
+        # File type
+        fileType=0x1,  # VFT_APP
+        # File subtype
+        subtype=0x0,
+        # Creation date/time (not used)
+        date=(0, 0)
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    u'040904B0',  # US English, Unicode
+                    [
+                        StringStruct(u'CompanyName', u'AntiGravity Projects'),
+                        StringStruct(u'FileDescription', u'Slice & Stich PDF - Split and merge PDF files'),
+                        StringStruct(u'FileVersion', u'4.0.0'),
+                        StringStruct(u'InternalName', u'SliceStichPDF'),
+                        StringStruct(u'LegalCopyright', u'Copyright (c) 2024 AntiGravity Projects'),
+                        StringStruct(u'OriginalFilename', u'Slice & Stich PDF v4.0.0.exe'),
+                        StringStruct(u'ProductName', u'Slice & Stich PDF'),
+                        StringStruct(u'ProductVersion', u'4.0.0'),
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+    ]
+)
